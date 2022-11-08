@@ -2,7 +2,7 @@ import Config
 
 # Configure your database
 config :portfolio, Portfolio.Repo,
-  username: "postgres",
+  username: "josephjepson",
   password: "postgres",
   hostname: "localhost",
   database: "portfolio_dev",
