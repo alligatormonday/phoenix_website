@@ -19,15 +19,15 @@ defmodule PortfolioWeb.ConnCase do
 
   using do
     quote do
+      # The default endpoint for testing
+      @endpoint PortfolioWeb.Endpoint
+
+      use PortfolioWeb, :verified_routes
+
       # Import conveniences for testing with connections
       import Plug.Conn
       import Phoenix.ConnTest
       import PortfolioWeb.ConnCase
-
-      alias PortfolioWeb.Router.Helpers, as: Routes
-
-      # The default endpoint for testing
-      @endpoint PortfolioWeb.Endpoint
     end
   end
 

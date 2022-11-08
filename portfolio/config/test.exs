@@ -17,14 +17,17 @@ config :portfolio, Portfolio.Repo,
 # you can enable the server option below.
 config :portfolio, PortfolioWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "sJrxnSTLfpJHiDFA53NuaFlMUf/jlrnJhuwShPD39k5/OXmMHozJVKdV2VeFxWvQ",
+  secret_key_base: "DvuMy34R/POPdjb8CjkNkX5xbAMyS7yjASS2q7fHIiov6eRjl1LZB1IAc4QwkjtM",
   server: false
 
 # In test we don't send emails.
 config :portfolio, Portfolio.Mailer, adapter: Swoosh.Adapters.Test
 
+# Disable swoosh api client as it is only required for production adapters.
+config :swoosh, :api_client, false
+
 # Print only warnings and errors during test
-config :logger, level: :warn
+config :logger, level: :warning
 
 # Initialize plugs at runtime for faster test compilation
 config :phoenix, :plug_init_mode, :runtime
