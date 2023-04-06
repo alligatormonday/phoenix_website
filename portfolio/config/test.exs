@@ -17,7 +17,7 @@ config :portfolio, Portfolio.Repo,
 # you can enable the server option below.
 config :portfolio, PortfolioWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "DvuMy34R/POPdjb8CjkNkX5xbAMyS7yjASS2q7fHIiov6eRjl1LZB1IAc4QwkjtM",
+  secret_key_base: "f+Nb0NsKvUTCGj0ick6f7whwJ6s2/yHM/xTtSpWZq1nmBCKE47QbLVUqT0ppVlHG",
   server: false
 
 # In test we don't send emails.

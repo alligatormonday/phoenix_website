@@ -18,7 +18,7 @@ config :portfolio, PortfolioWeb.Endpoint,
     layout: false
   ],
   pubsub_server: Portfolio.PubSub,
-  live_view: [signing_salt: "og1kyoF3"]
+  live_view: [signing_salt: "SZxxkM74"]
 
 # Configures the mailer
 #

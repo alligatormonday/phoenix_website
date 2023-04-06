@@ -7,7 +7,7 @@ defmodule PortfolioWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_portfolio_key",
-    signing_salt: "NEE6LCie",
+    signing_salt: "QAORgPto",
     same_site: "Lax"
   ]
 

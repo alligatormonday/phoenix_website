@@ -23,7 +23,7 @@ config :portfolio, PortfolioWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "0mg8vONqIYfcxAhHDWufk2exdawSpyefVS/Z6aweXgV2lk/3jK2cynLZxGBgcRPD",
+  secret_key_base: "iO/fYcN0m91uH4F0As7sH4L2mZlgtAabO+Ktv9v/Dz3XvIBCYqEl/8kCq61Vt5pJ",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
